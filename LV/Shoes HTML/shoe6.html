@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel = "icon" href ="../images/Other/Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel = "icon" href ="images/LOGO/7161945.png" type = "jpeg/png">
+
+    <title>LV</title>
+
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+    <script>
+
+        $(function() {  
+            $( "#tabs-1" ).tabs();  
+        });
+
+      </script>
+      <style>  
+        #tabs-1{font-size: 14px;}  
+        .ui-widget-header {  
+           background:lightpink;  
+           border: 1px solid #b9cd6d;  
+           color: lightyellow;  
+           font-weight: bold;  
+        }  
+     </style> 
+
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/shoe.css">
+</head>   
+    
+<body>
+        <!-- Navbar -->
+    <div id="navbar">
+        <div id="navbar-brand">
+            <a href="../Home.html">
+                <img class="logo" src="../Images/Other/Logo.png" alt="Logo">
+              </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../Home.html" id="home">Home</a></li>
+            <li><a href="../Search.html" id="home1">Search</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+          <!-- Navbar -->
+  
+<div class="imgBox"><img src="../Images/Shoe6/Shoe6.1.jpeg" alt="shoe6.1"></div>    
+<ul class="thumb">
+    <li><a href="../Images/Shoe6/Shoe6.1.jpeg" target="imgBox"><img src="../Images/Shoe6/Shoe6.1.jpeg" width="120" alt="shoe6.1"></a></li>
+    <li><a href="../Images/Shoe6/Shoe6.2.jpeg" target="imgBox"><img src="../Images/Shoe6/Shoe6.2.jpeg" width="120" alt="shoe6.2"></a></li>
+    <li><a href="../Images/Shoe6/Shoe6.3.jpeg" target="imgBox"><img src="../Images/Shoe6/Shoe6.3.jpeg" width="120" alt="shoe6.3"></a></li>
+    <li><a href="../Images/Shoe6/Shoe6.4.jpeg" target="imgBox"><img src="../Images/Shoe6/Shoe6.4.jpeg" width="120" alt="shoe6.4"></a></li>
+    <li><a href="../Images/Shoe6/Shoe6.5.jpeg" target="imgBox"><img src="../Images/Shoe6/Shoe6.5.jpeg" width="120" alt="shoe6.5"></a></li>
+</ul>
+<br><br>
+
+<script>
+    $(document).ready(function(){
+        $('.thumb a').click(function(e){
+            e.preventDefault();
+            $('.imgBox img').attr("src", $(this).attr("href"));
+        })
+    })
+</script>
+
+    <div class="shoe_details">
+            <h1>LV TRAINER SNEAKER Blue Eddition</h1>
+			<h3>Women&nbsp;|&nbsp;Sneaker</h3>
+			<h4> $300.00</h4>
+			<h5>Color &nbsp; Navy </h5>
+            <p>For his second collaboration with Louis Vuitton Artistic Director Virgil Abloh, Japanese streetwear legend Nigo reworks the iconic LV Trainer sneaker. The Monogram denim upper is complemented by calf-leather trim and decorated with a red, heart-shaped Louis Vuitton² rubber patch. Nigo's instinctive fusion of British dandy and Japanese street culture has established him as a uniquely influential figure, at the crossroads of fine art and fashion.</p>
+            <hr>
+        </div>
+<div id="tabs-1">  
+
+            <ul>  
+               <li><a href="#tabs-2">Delivery</a></li>  
+               <li><a href="#tabs-3">Return Policy</a></li>  
+               <li><a href="#tabs-4">Shoe Size</a></li>  
+            </ul>
+
+    <div id = "tabs-2">   
+        <h1 style="text-align: center;">Delivery</h1>
+        <p style="text-align: center; font-size: large;">All orders are processed within 5 to 
+            10 business days (excluding weekends and holidays) after receivin
+        g your order confirmation email. You will receive another notification when your order has shipped.</p>
+    </div>
+    <div id = "tabs-3">
+    <h1 style="text-align: center;">Return Policy</h1>
+        <p style="text-align: center; font-size: large;">We accept returns up to 10 days after delivery, if the item is unused and in
+             its original condition, and we will refund the full order amount minus the shipping costs for the return. 
+            In the event that your order arrives damaged in any way, please email us as soon as possible at support@email.com 
+            with your order number and a photo of the item’s 
+            condition. We address these on a case-by-case basis but will try our best to work towards a satisfactory solution.     
+            If you have any further questions, please don't hesitate to contact us at support@email.com.</p>
+
+    </div>
+    <div id="tabs-4">
+        <h1 style="text-align: center;">Shoe Size</h1>
+        <img style="width: 100%;" src="../Images/Other/Shoe_Size.jpeg" alt="Shoe Size">  
+    </div>     
+ </div>
+
+
+</body>    
+</html>

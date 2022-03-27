@@ -1,0 +1,597 @@
+*{
+    margin:2px;
+    padding:0;
+}
+@media only screen and (max-width: 1200px){
+    #headerSec{
+        width: 100%;
+        background-color: rgba(14, 13, 13, 0.733);
+        height: 300px;
+    }
+
+    .headerContainer{
+        width: 100%;
+        background: none;
+        height: auto;
+    }
+
+    .searchOptions{
+        background: none;
+        height: auto;
+    }
+
+    .filterContainer{
+        width: 900px;
+        justify-content: space-around;
+        background: none;
+        height: auto;
+    }
+
+    #searchbtn:hover{
+        color:rgb(255, 234, 118);
+        background: black;
+        box-shadow: 0px 0px 9px 5px rgb(255, 234, 118);
+    }
+
+    .searchBar{
+        margin: auto;
+    }
+
+    .price{
+        width: 850px;
+    }
+    
+    .filterDividers{
+        width: 450px;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    #slider-range{
+        margin-left: 20px;
+        width: 720px;
+    }
+
+    .itemSection{
+        width: 900px;
+    }
+
+    .itemContainer{
+        width: 610px;
+        border: none;
+    }
+
+    .dragNdrop{
+        width: 200px
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #headerSec{
+        width: 100%;
+        background-color: rgba(14, 13, 13, 0.733);
+        height: 300px;
+    }
+
+    .headerContainer{
+        width: 768px;
+        background: none;
+        height: auto;
+    }
+
+    .searchOptions{
+        background: none;
+        height: auto;
+    }
+
+    .filterContainer{
+        width: 768px;
+        justify-content: space-around;
+        background: none;
+        height: auto;
+    }
+
+    .slder{
+        margin-left: 5%;
+    }
+
+    #searchbtn:hover{
+        color:rgba(187, 37, 130, 0.733);
+        background: black;
+        box-shadow: 0px 0px 9px 5px rgba(187, 37, 130, 0.733);
+    }
+    
+    .filterDividers{
+        width: 768px;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .itemSection{
+        width: 700px;
+        margin: auto;
+    }
+
+    .itemContainer{
+        width: 400px;
+        border: none;
+    }
+
+    .dragNdrop{
+        width: 200px;
+        margin: auto;
+        border: none;
+        background-color: rgb(201, 201, 201);
+    }
+}
+@media only screen and (max-width: 425px){
+	.filterDividers{
+        display: flex;
+    }
+
+    #item{
+        columns: 1;
+    }
+}
+
+.headerContainer a{
+    text-decoration: none;
+}
+input{
+    background-color: purple;
+}
+
+#headerSec{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header{
+    height: 235px;
+}
+
+.nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    background-color: rgba(187, 37, 130, 0.733);
+}
+
+.headerContainer{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.searchOptions{
+    padding: 10px;
+    
+}
+
+.filterContainer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(187, 37, 130, 0.733);
+}
+.filters{
+    float: right;
+    margin-left: 0.0038%;
+}
+
+
+select{
+    border: none;
+    
+}
+
+.searchBar{
+    height: 90px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.sliderPrice{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgba(187, 37, 130, 0.733);
+    text-align: center;
+    
+}
+
+.price{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#searchbtn{
+    margin-top: 15px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    transition: .4s ease-out;
+    border-radius: 5px;
+}
+
+#searchbtn:hover{
+    box-shadow: 0px 0px 9px 5px rgb(255, 234, 118);
+}
+
+.spinnerClass{
+    width: 40px;
+    height: 15px;
+    border-radius: 0px;
+}
+
+
+
+.itemSection{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 2% auto;
+    position: relative;
+}
+
+.itemContainer{
+    
+    padding: 10px;
+    height:100%;
+    width: 80%;
+    position: relative;
+}
+
+
+.dragNdrop{
+    
+    height: auto;
+    width: 300px;
+    margin-left: 30px;
+    float: right;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.dragNdrop p{
+    padding: 5%;
+}
+
+
+.itemWrap{
+    border: none;
+    margin: 2% auto;
+    width: 90%;
+    height: 90%;
+}
+
+.custom{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5%;
+}
+
+
+#item{
+    box-sizing: border-box;
+    height: auto;
+    width: 95%;
+    border: white 1px solid;
+    margin: auto;
+    height: auto;
+    -moz-box-align: center;
+}
+
+#item li{
+    list-style: none;
+}
+
+.print{
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 0px 0px 10px 3px rgba(187, 37, 130, 0.733);
+    margin-bottom: 50px;
+    padding: 5px;
+    transition: .3s linear ease-in-out;
+    border-radius: 5px;
+    
+}
+
+.printName{
+    border: none;
+    text-align: left;
+    justify-content: space-evenly;
+    width: 340px;
+}
+
+.printName h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.printName h3{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.printImg{
+    padding-left:5%;
+}
+
+.printDes{
+    transform:translateX(300px);
+    transform:translateY(-150px);
+    padding-left: 400px;
+    box-sizing: border-box;
+    border: white;
+    width: 900px;
+    height: auto;
+}
+
+.buttns{
+    display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+#item .buttns button{
+    overflow: hidden;
+	font-weight: 500;
+	font-style: italic;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 3px 5px 1px rgba(246, 5, 194, 0.287);
+    transition: .3s ease-in-out;
+}
+
+#sidebar {
+    position: relative;
+    z-index: 1;
+    float: right;
+    width: 224px;
+}
+
+.localStorage,
+.basket{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.localStorage,
+.basket .basket_list{
+    width: 220px;
+    border: 2px dashed transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px rgba(187, 37, 130, 0.733);
+}
+
+.viewClear{
+    width: 220px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.showLst,
+.clearLst{
+    width: 100px;
+    padding: 2px;
+    border-radius: 5px;
+    transition: .3s  ease-in-out;
+    border: none;
+}
+
+
+
+.basket .head{
+    overflow: hidden;
+    margin: 0 10px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.basket .head .name{
+    float: left;
+}
+
+.basket .head .count{
+    float: right;
+}
+
+
+
+#FavList ul li,
+.basket ul li{
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    margin: 0 10px;
+    height: 26px;
+    width: 200px;
+    line-height: 32px;
+    border-bottom: 1px dashed #eee;
+}
+#FavList ul li:hover,
+.basket ul li:hover { 
+    border-bottom-color: #ccc 
+}
+#FavList ul li span.name,
+.basket ul li span.name {
+    display: block;
+    float: left;
+    width: 165px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: width .2s ease;
+    cursor: pointer;
+}
+#FavList ul li :hover span.name,
+.basket ul li:hover span.name { 
+    width: 146px 
+}
+#FavList ul li input.count,
+.basket ul li input.count {
+    float: right;
+    margin: 3px 2px 0 0;
+    width: 25px;
+    line-height: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+}
+#FavList ul li button.delete,
+.basket ul li button.delete {
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    filter: alpha(opacity = 0);
+    opacity: 0;
+    width: 20px;
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity .2s ease;
+}
+#FavList ul li:hover button.delete,
+.basket ul li:hover button.delete{
+    opacity: 1;
+}
+
+
+
+header
+{
+    background-color: rgba(187, 37, 130, 0.733);
+}
+select{
+    background-color: rgba(187, 37, 130, 0.733);
+}
+#searchbtn{
+    background-color: rgb(226, 167, 47);
+}
+.dragNdrop:hover{
+    background-color:rgba(187, 37, 130, 0.733);
+}
+
+#item .buttns button:hover{
+     background-color: rgba(246, 242, 216, 0.959);
+    }
+.basket ul li input.count {
+    background-color: #ddd;
+}
+#FavList ul li button.delete,.basket ul li button.delete {
+    background-color: #eee;
+}
+#FavList ul li button.delete:hover,.basket ul li button.delete:hover {
+    background: rgba(255, 217, 0, 0.63);
+}
+#FavList ul li button.delete:active,.basket ul li button.delete:active{ 
+     background: rgb(255, 217, 0);
+    }
+.showLst:hover{
+    background: rgba(255, 0, 242, 0.295);
+}
+.clearLst:hover{
+    background: rgba(255, 38, 0, 0.856);
+}
+*, .viewClear , .headerContainer, .headerContainer a, .custom,.itemWrap, .itemContainer, .localStorage, .basket .basket_list {
+    background: none;
+}
+input[type="checkbox"],input[type="checkbox"]::before,input[type="checkbox"]::after{
+    background: rgba(187, 37, 130, 0.733);
+}
+#searchbtn:hover,.spinnerClass{
+    background: rgba(187, 37, 130, 0.733);
+}
+.searchBar{
+    background: rgba(187, 37, 130, 0.733);
+}
+.searchOptions{
+    background: rgba(187, 37, 130, 0.733);;
+}
+
+
+* , .showLst,.clearLst {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.printDes{
+    font-family: Montserrat,sans-serif;
+}
+#item .buttns button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#headerSec , .sliderPrice  ,.spinnerClass {
+    color: rgb(226, 167, 47);
+}
+#searchbtn{
+    color: rgba(187, 37, 130, 0.733);
+}
+.headerContainer a , select{
+    color:rgb(226, 167, 47);
+}
+#searchbtn:hover{
+     color:rgba(255, 238, 0, 0.733);
+    }
+.dragNdrop p{
+    color: goldenrod;
+}
+#item .buttns button , .basket .head {
+    color: rgb(0, 0, 0);
+}
+#FavList ul li button.delete,
+.basket ul li button.delete {
+    color: #EE5757;
+}
+#FavList ul li button.delete:hover,.basket ul li button.delete:hover ,#FavList ul li button.delete:active,.basket ul li button.delete:active{
+    color: rgb(255, 0, 0);
+}
+
+.headerContainer a{
+    font-size: 40px;
+}
+.filters , .sliderPrice ,#searchbtn ,.price , .spinnerClass{
+    font-size: 15px;
+}
+.showLst,.clearLst{
+    font-size: 15px;
+}
+#item .buttns button{
+    font-size: 1.15rem;
+}
+#FavList ul li button.delete,.basket ul li button.delete {
+    font-size: 11px;
+}
+
+

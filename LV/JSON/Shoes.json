@@ -1,0 +1,100 @@
+{
+	"shoes": [
+        {   
+            "id"         :"shoe1",
+            "name"       :"OBERKAMPF ANKLE BOOT",
+            "gender"     :"Men",
+            "style"      :"Boot",
+            "sizes"      :4,
+            "price"      :250.00,
+            "colour"     :"Brown",
+            "description":"This version of the emblematic Oberkampf ankle boot is part of Louis Vuitton's second collaboration with the Japanese designer Nigo, which encompasses ready-to-wear, leather goods and accessories. Nigo's instinctive fusion of British dandy and Japanese street culture has established him as a uniquely influential figure, at the crossroads of fine art and fashion. Crafted from supple calf leather, this model features patches with Louis Vuitton x Nigo signatures. Attached with press-studs, they can be removed or interchanged to create different looks.",            
+            "picture"    :"images/Shoe1/Shoe1.1.jpeg",
+            "url"        :"Shoes HTML/shoe1.html"
+        },
+        {
+            "id"         :"shoe2",
+            "name"       :"LV TRAINER SNEAKER",
+            "gender"     :"Men",
+            "style"      :"Sneaker",
+            "sizes"      :5,
+            "price"      :150,
+            "colour"     :"Black",
+            "description":"The emblematic LV Trainer sneaker is revisited by Japanese streetwear legend Nigo as part of his second collaboration with Louis Vuitton Artistic Director Virgil Abloh. The upper in black calf leather is printed with the tiger motif of the Louis Vuitton x Nigo collection, which takes in ready-to-wear, accessories and leather goods. Nigo's instinctive fusion of British dandy and Japanese street culture has established him as a uniquely influential figure, at the crossroads of fine art and fashion.",
+            "picture"    :"images/Shoe2/Shoe2.1.jpeg",
+            "url"        :"Shoes HTML/shoe2.html"
+        },
+        {
+            "id"         :"shoe3",
+            "name"       :"LV TRAINER SNEAKER Shiny",
+            "gender"     :"Men",
+            "style"      :"Sneaker",
+            "sizes"      :7,
+            "price"      :175.00,
+            "colour"     :"Yellow",
+            "description":"This exceptional version of the iconic LV Trainer sneaker is completely covered in sparkling crystals in black, silver and yellow. This graphic color palette highlights the elaborate construction of the upper, which takes Louis Vuitton artisans seven hours to stitch. The bicolor rubber outsole is debossed with Monogram-Flower motifs.",
+            "picture"    :"images/Shoe3/Shoe3.1.jpeg",
+            "url"        :"Shoes HTML/shoe3.html"
+        },
+        {
+            "id"         :"shoe4",
+            "name"       :"LV TRAINER SNEAKER Checked",
+            "gender"     :"Women",
+            "style"      :"Flat",
+            "sizes"      :6,
+            "price"      :120.00,
+            "colour"     :"Red",
+            "description":"For his second collaboration with Louis Vuitton Artistic Director Virgil Abloh, Japanese streetwear legend Nigo revisits the cult LV Trainer sneaker. This version in calf leather is printed with Nigo's reinterpretation of the historic Damier pattern, a key theme of the Louis Vuitton x Nigo collection, which includes leather goods, accessories and ready-to-wear. Nigo's instinctive fusion of British dandy and Japanese street culture has established him as a uniquely influential figure, at the crossroads of fine art and fashion.",
+            "picture"    :"images/Shoe4/Shoe4.1.jpeg",
+            "url"        :"Shoes HTML/shoe4.html"
+        },
+        {
+            "id"         :"shoe5",
+            "name"       :"PILLOW COMFORT ANKLE BOOT",
+            "gender"     :"Women",
+            "style"      :"Boots",
+            "sizes"      :5,
+            "price"      :400.00,
+            "colour"     :"Noir",
+            "description":"A cold-weather essential, the Pillow comfort ankle boot comes in water-repellent nylon with a warm down filling. The upper has a refined quilted finish, while the lining features the iconic Monogram pattern Its sock like inner layer in mesh textile ensures a perfect hold of the feet while offering comfort. Designed by Louis Vuitton Artistic Director Nicolas Ghesquière, this model is finished with a lightweight micro outsole with a contour in nappa leather, and can be worn outdoors as well as indoors.",
+            "picture"    :"images/Shoe5/Shoe5.1.jpeg",
+            "url"        :"Shoes HTML/shoe5.html"
+        },
+        {
+            "id"         :"shoe6",
+            "name"       :"LV TRAINER SNEAKER Blue Eddition",
+            "gender"     :"Women",
+            "style"      :"Sneaker",
+            "sizes"      :6,
+            "price"      :300.00,
+            "colour"     :"Navy",
+            "description":"For his second collaboration with Louis Vuitton Artistic Director Virgil Abloh, Japanese streetwear legend Nigo reworks the iconic LV Trainer sneaker. The Monogram denim upper is complemented by calf-leather trim and decorated with a red, heart-shaped Louis Vuitton² rubber patch. Nigo's instinctive fusion of British dandy and Japanese street culture has established him as a uniquely influential figure, at the crossroads of fine art and fashion.",
+            "picture"    :"images/Shoe6/Shoe6.1.jpeg",
+            "url"        :"Shoes HTML/shoe6.html"
+        },
+        {
+            "id"         :"shoe7",
+            "name"       :"SILHOUETTE ANKLE BOOT",
+            "gender"     :"Women",
+            "style"      :"Heel",
+            "sizes"      :8,
+            "price"      :500.00,
+            "colour"     :"Blue Leather",
+            "description":"A wardrobe staple that you can dress up or down, these chunky wedge heels feature a rip-tape strap for a secure fit and easy on-off. Crafted from ultra-comfortable material, the stylish uppers are the perfect combination of form and function, while the rubber sole provides traction with every step.",
+            "picture"    :"images/Shoe7/Shoe7.1.jpeg",
+            "url"        :"Shoes HTML/shoe7.html"
+        },
+        {
+            "id"         :"shoe8",   
+            "name"       :"ARCHLIGHT SLINGBACK PUMP",
+            "gender"     :"Women",
+            "style"      :"Flats",
+            "sizes"      :8,
+            "price"      :700.00,
+            "colour"     :"Pink",
+            "description":"The Archlight slingback pump is an elegant reinterpretation of one of Louis Vuitton's most iconic models, the LV Archlight sneaker. The upper combines technical satin and calf leather, while the ultra-supple rubber outsole has a wavy shape that references the design of the sneaker. This model features an adjustable velcro strap at the back and a feminine kitten heel. This model tends to run large. We recommend that you order a half-size smaller than your usual shoe size.",
+            "picture"    :"images/Shoe8/Shoe8.1.jpeg",
+            "url"        :"Shoes HTML/shoe8.html"
+        }
+    ]
+}
